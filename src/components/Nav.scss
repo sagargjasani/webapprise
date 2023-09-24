@@ -1,0 +1,28 @@
+nav {
+  height: 60px;
+  //   background-color: red;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin-bottom: 2rem;
+
+  ul {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .navlink {
+      //   background-color: red;
+      padding: 1rem;
+      transition: all 0.3s ease-in;
+      border-radius: 10px;
+
+      &:hover {
+        color: var(--primery-color);
+        background-color: rgba(225, 225, 225, 0.224);
+      }
+    }
+  }
+}
